@@ -12,5 +12,5 @@ spec:
   template:
     spec:
       containers:
-        - image: quay.io/redhat-ai-dev/ai-template-bootstrap-app:latest # use pre-built to bootstrap
+        - image: quay.io/jdubrick-ai/test-onesixinstaller-chatbot:2e3d1236bfb723fb97beab112b56baaf517f8a34@sha256:8fd9a1dc1d56628753e81aabddc4a0549909bbb97acf6680188f0998139909d4 # use pre-built to bootstrap
           name: app-inference
