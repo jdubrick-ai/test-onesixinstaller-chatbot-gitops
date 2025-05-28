@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: test-onesixinstaller-chatbot-database-config
+data:
+  VECTORDB_HOST: "test-onesixinstaller-chatbot-database"
+  VECTORDB_PORT: ""
